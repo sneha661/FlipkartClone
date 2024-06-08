@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart clone</title>
+    <link rel="icon" href="./images/flipkart_logo.jpeg" type="images/x-icon">
+    <!--External css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="./css/bootsrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!------fontawesome icons------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .login-container {
+            width: 400px;
+            padding: 20pxpx;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        
+        .login-container h2 {
+            text-align: center;
+        }
+        
+        .login-container img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .login-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        
+        .class1 {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/f2.jpeg" height="70" width="120"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <form class="d-flex ">
+                    <input class="form-control me-2 " type="search " placeholder="Search for Products,Brands and More " aria-label="Search ">
+                    <button class="btn btn-outline-success " type="submit ">Search</button>
+                </form>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2" style="margin-left: 10px;">
+                            <i class=" fa-solid fa-circle-user"></i>
+                        </li>
+
+                        <li class=" nav-item ">
+                            <a class="nav-link active " href="./login.html " tabindex="-1 " aria-disabled="true ">LOGIN</a>
+                        </li>
+
+
+                        <li class="nav-item px-5 ">
+                            <a class="nav-link active " href="./cart.html " tabindex="-1 " aria-disabled="true ">CART</a>
+                        </li>
+                        <li class="nav-item px-5 ">
+                            <a class="nav-link active " href="./becomeseller.html" tabindex="-1 " aria-disabled="true ">BECOME A SELLER</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .login-container {
+            max-width: 500px;
+            width: 100%;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="login-container py-5 mt-5">
+            <img src="./images/flipkart_logo.jpeg" alt="Logo" class="img-fluid mb-3">
+            <h2>Login</h2>
+            <form class="login-form" action="#" method="POST">
+                <input type="text" name="username" placeholder="Username" class="form-control mb-3" required>
+                <input type="password" name="password" placeholder="Password" class="form-control mb-3" required>
+                <input type="submit" value="Login" class="btn btn-primary btn-block">
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                            <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        </div>
+                    </div>
+
+                    <div class="col text-right">
+                        <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                    </div>
+                </div>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Not a member? <a href="#!">Register</a></p>
+                    <p>or sign up with:</p>
+                    <!-- Facebook -->
+                    <a data-mdb-ripple-init class="btn btn-primary mt-3 px-4" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a data-mdb-ripple-init class="btn btn-primary mt-3 px-4" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a data-mdb-ripple-init class="btn btn-primary mt-3 px-4" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+    <!-- footer section -->
+    <div class="footer mt-5">
+        <div class="container-fluid footerContainer ">
+            <div class="row footerData ">
+                <div class="col-lg-4 col-sm-12 mt-3 ">
+                    <center>
+                        <h3>Free Shipping</h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-truck-fast "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>Get free shipping on orders of Rs 500 and above anywhere in India. The estimated time of shipment delivery is 4-5 days. Place your order today.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 mt-3">
+                    <center>
+                        <h3>Money Gurantee</h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-piggy-bank " style="font-size: 50; color: rgb(133, 133, 236); "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>100% refund is assured to the customer, in case, if the product received is damaged or improper.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 mt-3">
+                    <center>
+                        <h3>online support</h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-headset "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>We provide 24x7 online support to our customers for any concerns/queries.<br/>
+                                <i class="fa-solid fa-phone " style="font-size: small; "></i>+91 987654324<br/>
+                                <i class="fa-solid fa-envelope " style="font-size: small; "></i> Organicfood@gamil.com</p>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+
+            </div>
+        </div>
+
+        <div class="container-fluid text-center ">
+            <div class="row-lg-8 m-auto ">
+                <p>Copyright © 2024 Organic. All Rights Reserved &nbsp;&nbsp;<img src="./images/visa.jpeg " height="35 " width="50 ">
+                    <img src="./images/rupay.jpeg " style="height: 30px; width: 40px; ">
+                    <img src="./images/mastercard.jpeg " style="height: 30px; width: 40px; ">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

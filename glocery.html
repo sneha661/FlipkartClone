@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart clone</title>
+    <link rel="icon" href="./images/flipkart_logo.jpeg" type="images/x-icon">
+    <!--External css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="./css/bootsrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!------fontawesome icons------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            padding: 0;
+        }
+        
+        h3 {
+            font-family: fantasy;
+            font-weight: 500;
+            -webkit-text-fill-color: rgba(53, 43, 187, 0.907);
+            text-decoration: underline;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/f2.jpeg" height="70" width="120"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <form class="d-flex ">
+                    <input class="form-control me-2 " type="search " placeholder="Search for Products,Brands and More " aria-label="Search ">
+                    <button class="btn btn-outline-success " type="submit ">Search</button>
+                </form>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2" style="margin-left: 10px;">
+                            <i class=" fa-solid fa-circle-user"></i>
+                        </li>
+
+                        <li class=" nav-item ">
+                            <a class="nav-link active " href="./login.html" tabindex="-1 " aria-disabled="true ">LOGIN</a>
+                        </li>
+
+
+                        <li class="nav-item px-5 ">
+                            <a class="nav-link active " href="./cart.html " tabindex="-1 " aria-disabled="true ">CART</a>
+                        </li>
+                        <li class="nav-item px-5 ">
+                            <a class="nav-link active " href="./becomeseller.html " tabindex="-1 " aria-disabled="true ">BECOME A SELLER</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-----navbar 2nd-->
+    <section>
+        <div class="container mt-3 ">
+            <div class="row ">
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/glocery.jpeg " height="100 ">
+                    <a href="glocery.html ">
+                        <p class="text-effect ">Grocery</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/mobile.jpeg " height="100 ">
+                    <a href="mobile.html ">
+                        <p class="text-effect ">Mobile</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/fasion.jpeg " height="100 " width="120 ">
+                    <a href="fasion.html">
+                        <p class="text-effect ">Fasion</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/electronic.jpeg " height="100 ">
+                    <a href="electronic.html">
+                        <p class=" text-effect ">Electronics</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/homeandfurniture.jpeg " height="90 ">
+                    <a href="./furniture.html ">
+                        <p class="text-effect "> Furnitures</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 text-center ">
+                    <img src="./images/toys.jpeg " height="90 ">
+                    <a href="./toy.html">
+                        <p class="text-effect ">Toys</p>
+                    </a>
+                </div>
+            </div>
+
+    </section>
+
+    <body>
+        <section class="facultySection py-3">
+            <h3 align="center">Shop By Category</h3>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12 ">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/atta.jpeg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body" mt-5>
+                                <center>
+                                    <h5 class="card-title">Atta</h5>
+                                </center>
+                                <p class="card-text"></p>
+                                <a href="#" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./images/oil.webp" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <center>
+                                    <h5 class="card-title">Jemini Oil</h5>
+                                </center>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/dry.jpg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <center>
+                                    <h5 class="card-title">Dry Fruits</h5>
+                                </center>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/salt.png" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <center>
+                                    <h5 class="card-title">Salt</h5>
+                                </center>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/haircare.jpeg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hair Care</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/bodyand skin.webp" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Body and Skin Care</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/whitetone.jpeg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Beauty Products</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5 ">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/facepack.jpeg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Face packs and Scrubs</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/chocolate.jpeg" height="220" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">chocolates and Sweets </h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/snacks.jpeg" height="200" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Snacks and Packagefoods</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/berage.jpeg" height="220" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Beverages</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                        <div class="card" style="width: 16rem;">
+                            <img src="./Images/pickles.jpeg" height="220" width="90" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pickles and chutney</h5>
+                                <p class="card-text"></p>
+                                <a href="./cart.html" class="btn btn-primary d-block mx-auto">Up to 40% off</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </body>
+    <!-----Footer Section----->
+    <div class="footer ">
+        <div class="container-fluid footerContainer ">
+            <div class="row footerData mt-5">
+                <div class="col-lg-4 col-sm-12 mt-3 ">
+                    <center>
+                        <h3 style="color:white ">Free Shipping </h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-truck-fast "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>Get free shipping on orders of Rs 500 and above anywhere in India. The estimated time of shipment delivery is 4-5 days. Place your order today.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 mt-3">
+                    <center>
+                        <h3>Money Gurantee</h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-piggy-bank " style="font-size: 50; color: rgb(133, 133, 236); "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>100% refund is assured to the customer, in case, if the product received is damaged or improper.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 mt-3">
+                    <center>
+                        <h3>online support</h3>
+                    </center>
+                    <hr style="color:white " />
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <i class="fa-solid fa-headset "></i>
+                        </div>
+                        <div class="col-md-9 ">
+                            <p>We provide 24x7 online support to our customers for any concerns/queries.<br/>
+                                <i class="fa-solid fa-phone " style="font-size: small; "></i>+91 987654324<br/>
+                                <i class="fa-solid fa-envelope " style="font-size: small; "></i> Organicfood@gamil.com</p>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+
+            </div>
+        </div>
+
+        <div class="container-fluid text-center ">
+            <div class="row-lg-8 m-auto ">
+                <p>Copyright © 2024 Organic. All Rights Reserved &nbsp;&nbsp;<img src="./images/visa.jpeg " height="35 " width="50 ">
+                    <img src="./images/rupay.jpeg " style="height: 30px; width: 40px; ">
+                    <img src="./images/mastercard.jpeg " style="height: 30px; width: 40px; ">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

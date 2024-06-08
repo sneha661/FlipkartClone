@@ -1,0 +1,105 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            .navbar .nav-link {
+                color: black;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            .d-flex {
+                width: 700px;
+                background-color: azure;
+            }
+            
+            a:hover {
+                color: crimson
+            }
+            
+            .footer {
+                color: white;
+                background-color: black;
+            }
+            
+            .footer hr {
+                font-weight: bold;
+            }
+            
+            .footer .footerData i {
+                color: blue;
+                font-size: 45px;
+            }
+            
+            .footer .footerData i,
+            span {
+                display: inline-blod;
+            }
+            
+            .text-effect {
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                -webkit-text-fill-color: black;
+                text-decoration: none;
+            }
+            
+            .card:hover {
+                transform: translate(-5px);
+                box-shadow: 0 8px 16px rgb(45, 27, 27);
+            }
+            
+            .card-text {
+                font-size: large;
+                -webkit-text-fill-color: black;
+            }
+            
+            p {
+                text-decoration: none;
+            }
+            
+            .heading {
+                font-size: xx-large;
+                -webkit-text-fill-color: black;
+            }
+            
+            .nav-item {
+                font-size: larger;
+                font-weight: 50;
+            }
+            
+            .nav-item dropdown ul {
+                list-style-type: none;
+            }
+            
+            .fa-solid {
+                height: 20px;
+                width: 20px;
+            }
+            
+            .divider:after,
+            .divider:before {
+                content: "";
+                flex: 1;
+                height: 1px;
+                background: #eee;
+            }
+            
+            .h-custom {
+                height: calc(100% - 73px);
+            }
+            
+            @media (max-width: 800px) {
+                .h-custom {
+                    height: 100%;
+                }
+            }
+            
+            .h3 {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .class{
+                text-align: center;
+            }
